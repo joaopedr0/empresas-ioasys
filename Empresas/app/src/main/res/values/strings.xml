@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Empresas</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-mail</string>
+    <string name="prompt_password">Senha</string>
+    <string name="error_invalid_email">Endereço de e-mail inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha incorreta</string>
+    <string name="error_field_required">Campo necessário</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="bem_vindo">BEM-VINDO AO EMPRESAS</string>
+    <string name="sample">Lorem ipsum dolor sit amet, contetur adipiscing elit. Nunc accumsan.</string>
+    <string name="clique_busca">Clique na busca para iniciar.</string>
+    <string name="pesquisar">Pesquisar</string>
+    <color name="bege">#ebe9d7</color>
+    <color name="medium_pink">#EE4C77</color>
+    <color name="dark_pink">#ee4c77</color>
+
+</resources>

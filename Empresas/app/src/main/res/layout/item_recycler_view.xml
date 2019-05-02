@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bege">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/imagem_empresa_card"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?android:attr/panelBackground" />
+
+        <TextView
+            android:id="@+id/nome_empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:background="@android:color/white"
+            android:text=""
+            android:textColor="#1a0e49"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintStart_toEndOf="@+id/imagem_empresa_card"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tipo_empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="#8d8c8c"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/imagem_empresa_card"
+            app:layout_constraintTop_toBottomOf="@+id/nome_empresa" />
+
+        <TextView
+            android:id="@+id/pais_empresa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:textColor="#8d8c8c"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imagem_empresa_card"
+            app:layout_constraintTop_toBottomOf="@+id/tipo_empresa" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
